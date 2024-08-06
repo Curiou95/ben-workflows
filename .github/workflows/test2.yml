@@ -1,0 +1,10 @@
+name: Just for fun
+run-name: Testing 2
+on: [push]
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo 'Class Name'
+        - run: echo 'CI/CD by Benjamin'
+        
