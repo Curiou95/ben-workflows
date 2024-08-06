@@ -5,6 +5,7 @@ jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
         steps:
-        - run: echo 'Class Name'
-        - run: echo 'CI/CD by Benjamin'
+            
+            - run: echo 'Class Name'
+            - run: echo 'CI/CD by Benjamin'
         
