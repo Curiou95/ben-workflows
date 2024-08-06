@@ -1,0 +1,9 @@
+name: Group 7
+run-name: Testing Workflows
+on: [push]
+jobs:
+    build-and-test:
+        runs-on: ubuntu-latest
+        steps:
+            -  run: echo "Group 7 members"
+            -  run: echo "Alia Jonathan and Matende Hussein"
